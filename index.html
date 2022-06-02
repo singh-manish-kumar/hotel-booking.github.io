@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <!-- CSS  -->
+      <link rel="stylesheet" href="css/index.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!-- BOOTSTRAP ICON  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+       <!-- JQUERY CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <!-- GOOGLE FONT  -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600&family=Zen+Antique&display=swap" rel="stylesheet">
+     <!--JQUERY Navigationbar  -->
+     <script defer src="jquery_plugin/Navigation_bar/Navigation_Bar/jquery.js"></script>
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="jquery_plugin/OwlCarousel2/OwlCarousel2/dist/assets/owl.carousel.css">
+    <link rel='stylesheet' href="jquery_plugin/OwlCarousel2/OwlCarousel2/dist/assets/owl.theme.green.css">
+    <script defer src="jquery_plugin/OwlCarousel2/OwlCarousel2/dist/owl.carousel.min.js"></script>
+       
+    <title>Home</title>
+  </head>
+
+  
+  <body>
+                                                                            <!-- HEADER START  -->
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-12 header-bg" id="header_bg_top">
+                 <div class="logo">
+                  <div id="bar">
+                    <i class="bi bi-border-width fs-2 fw-3 text-white"></i>
+                   </div>  
+                     <div class="overlay w-100 p-0 m-0 ">                                             
+                         <div class="logo-img d-flex justify-content-center">
+                               <img src="images/logo2.png" alt="logo" class="imgfluid">
+                         </div>
+                         <div class="nav_bar" id="navbar_item">
+                          
+                               <div class="icon">
+                                  <a href="https://www.facebook.com/simran.jaswal.5621" target="_blank"><i class="bi bi-facebook pe-3 text-white fs-4"></i></a>
+                                  <a href="https://www.instagram.com/manish_singh_rajput96/" target="_blank"><i class="bi bi-instagram pe-3 text-white fs-4"></i></a>
+                                  <a href="https://www.linkedin.com/in/manish-kumar-468839236" target="_blank"><i class="bi bi-linkedin pe-3 text-white fs-4"></i></a>
+                               </div>
+                                 <nav class="nav_container">
+                                       <a href="#" class=" pe-3 text-decoration-none">Home</a>
+                                       <a href="about_us.html" class=" pe-3 text-decoration-none">About Us</a>
+                                       <a href="rooms.html" class="pe-3 text-decoration-none">Rooms</a>
+                                       <a href="news.html"class="pe-3 text-decoration-none">News</a>
+                                       <a href="contact.html"class="pe-3 text-decoration-none">Contact</a>
+                                 </nav>                                      
+                                   <div class="d-flex search_bar me-3">
+                                      <span class="fs-2 text-white me-5"> <i class="bi bi-search"></i>  </span>
+                                      <button class="btn btn-warning text-white search_btn" type="submit">Book Your Room Now</button>
+                                   </div>
+                         </div>
+                   </div>
+                 </div>
+                 <div class="header-content text-center mt-4" id="header-content home-header-content">
+                    <h1 class="text-white"> Book Your Stay</h1>
+                    <p class="text-white fs-6 my-3">Fusce erat dui, veneus tempor turpis </p>
+                    <button class="BOOK_NOW">
+                          Book Now
+                    </button>
+                 </div>          
+             </div>
+         </div>
+     </div>
+
+     <div class="container header_select">
+       <div class="row gy-2 Header_customer_detail">
+         <div class="col-lg-3 col-md-6 col-12 check_in">
+           <div class="selected_container">
+            <label>Check In <br>
+              <input type="date">
+             </label>
+           </div>          
+         </div>
+         <div class="col-lg-3 col-md-6 col-12 check_out">
+           <div class="selected_container">
+            <label>Check Out <br>
+              <input type="date">
+             </label>
+           </div>         
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 select_adult">
+          <div class="selected_container">
+            <label>Adults <br>&nbsp;&nbsp;
+              <select style="border:none">
+                <option selected disabled>Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+          </div>           
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 select_children">
+          <div class="selected_container">
+            <label>Children <br>&nbsp;&nbsp;
+              <select style="border:none">
+                <option selected disabled>Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+          </div>
+         
+        </div>
+        <div class=" col-12 selected_booknow">
+           <button class="BOOK_NOW">BOOK NOW</button>
+        </div>
+       </div>
+     </div>
+
+                                                                     <!-- HEADER END  -->
+
+                                                                     <!-- JQUERY NAVIGATIONBAR  start-->
+<nav id="menu">
+ <ul>
+    <li><a href="#">Home</a></li>
+    <li> <a href="about_us.html">About Us</a></li>
+    <li><a href="rooms.html">Rooms</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html">Contact</a></li>
+ </ul>
+</nav>
+<div id="menu-toggle">
+  <img src="jquery_plugin/Navigation_bar/Navigation_Bar/menu.png" width=30 height=30 alt=""></img>
+  </div>
+                                                                           <!-- JQUERY NAVIGATIONBAR  end-->
+
+                                                                           <!-- LOGO LEFT SIDE  -->
+    <div class="fixed_logo" id="fixed_LOGO">
+      <img src="images/logo_3 (1).png" alt="..." class="img-fluid">
+    </div>
+                                                                           <!-- LOGO LEFT SIDE  -->
+
+
+                                                         <!-- section1 start  -->
+          <section class="section1">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section1_heading">
+                    <h2 class="text-center">Welcome
+                      <p class="text-center">Amazing Hotel in front of the Sea</p>
+                    </h2>
+                    <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperdiet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus.</p>
+                </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="owl-carousel owl-theme">
+                    <div class="item"><img class=" img-fluid" src="images/gallery_1.jpg" alt="gallery1">
+                      <div class="overlay_gallery text-center">
+                          <div class="plus_content text-center">
+                             <div class="plus text-white fs-4">+</div>
+                             <div class="See_More text-white fs-4">See More</div>
+                          </div>                          
+                      </div>
+                    </div>
+                    <div class="item"><img class=" img-fluid" src="images/gallery_2.jpg" alt="gallery2">
+                      <div class="overlay_gallery text-center">
+                        <div class="plus_content text-center">
+                           <div class="plus text-white fs-4">+</div>
+                           <div class="See_More text-white fs-4">See More</div>
+                        </div>                          
+                    </div></div>
+                    <div class="item"><img class=" img-fluid" src="images/gallery_3.jpg" alt="gallery3">
+                      <div class="overlay_gallery text-center">
+                        <div class="plus_content text-center">
+                           <div class="plus text-white fs-4">+</div>
+                           <div class="See_More text-white fs-4">See More</div>
+                        </div>                          
+                    </div></div>
+                    <div class="item"><img class=" img-fluid" src="images/gallery_4.jpg" alt="gallery4">
+                      <div class="overlay_gallery text-center">
+                        <div class="plus_content text-center">
+                           <div class="plus text-white fs-4">+</div>
+                           <div class="See_More text-white fs-4">See More</div>
+                        </div>                          
+                    </div></div>
+                    <div class="item"><img class=" img-fluid" src="images/gallery_1.jpg" alt="gallery1">
+                      <div class="overlay_gallery text-center">
+                        <div class="plus_content text-center">
+                           <div class="plus text-white fs-4">+</div>
+                           <div class="See_More text-white fs-4">See More</div>
+                        </div>                          
+                    </div></div>
+                    <div class="item"><img class=" img-fluid" src="images/gallery_2.jpg" alt="gallery2">
+                      <div class="overlay_gallery text-center">
+                        <div class="plus_content text-center">
+                           <div class="plus text-white fs-4">+</div>
+                           <div class="See_More text-white fs-4">See More</div>
+                        </div>                          
+                    </div></div>
+                    <div class="item"><img class=" img-fluid" src="images/gallery_3.jpg" alt="gallery3">
+                      <div class="overlay_gallery text-center">
+                        <div class="plus_content text-center">
+                           <div class="plus text-white fs-4">+</div>
+                           <div class="See_More text-white fs-4">See More</div>
+                        </div>                          
+                    </div></div>
+                    <div class="item"><img class=" img-fluid" src="images/gallery_4.jpg" alt="gallery4">
+                      <div class="overlay_gallery text-center">
+                        <div class="plus_content text-center">
+                           <div class="plus text-white fs-4">+</div>
+                           <div class="See_More text-white fs-4">See More</div>
+                        </div>                          
+                    </div></div>
+                
+                </div>
+                </div>
+              </div>
+            </div>
+          </section>
+                                                                                        <!-- section1 END -->
+
+
+                                                                                            <!-- section2 start  -->
+
+      <div class="container-fluid">
+        <div class="row room_section">
+          <div class="col-lg-6 col-12 room_section1">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active " data-bs-interval="1000">
+                  <img src="images/rooms_1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                  <img src="images/rooms_1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                  <img src="images/rooms_1.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>             
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-12 room_section1_content">
+              <div class="room_content">
+                <h2>Rooms</h2>
+                <h3>Luxury Double Suite</h3>
+                <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+                <p><span><i class="bi bi-arrow-right-circle"></i></span>Morbi tempus malesuada erat sed</p>
+                <p><span><i class="bi bi-arrow-right-circle"></i></span>Tempus malesuada erat sed</p>
+                <p><span><i class="bi bi-arrow-right-circle"></i></span>Pellentesque vel neque finibus elit</p>
+                <h4><span>$129/</span>Night</h4>
+                <button class="BOOK_NOW">Book Now</button>
+              </div>
+          </div>
+       
+  
+          <div class="col-lg-6 col-12 room_section1_content2">
+            <div class="room_content2">
+              <h2>Rooms</h2>
+              <h3>Luxury Single Room</h3>
+              <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+              <p><span><i class="bi bi-arrow-right-circle"></i></span>Morbi tempus malesuada erat sed</p>
+              <p><span><i class="bi bi-arrow-right-circle"></i></span>Tempus malesuada erat sed</p>
+              <p><span><i class="bi bi-arrow-right-circle"></i></span>Pellentesque vel neque finibus elit</p>
+              <h4><span>$89/</span>Night</h4>
+              <button class="BOOK_NOW">Book Now</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 room_section1">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active " data-bs-interval="1000">
+                  <img src="images/rooms_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                  <img src="images/rooms_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                  <img src="images/rooms_2.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>  
+          </div>
+        </div>
+      </div>
+
+                                                                          <!-- SECTION2 END  -->
+                                                                          <!-- <SECTION3 START  -->
+
+
+<section class="home_section3">
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-6 col-12">
+         <div class="home_section3_content">
+           <h2>Hotel</h2>
+           <h3>Discover Marimar Hotel</h3>
+           <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur.</p>
+           <button class="BOOK_NOW">DISCOVER</button>
+         </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="home_section3_content">
+          <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+     
+
+                                                                                     <!-- SECTION3 END  -->
+                                                                                    <!-- SECTION4 START  -->
+          <section class="section4">
+            <div class="container">
+              <div class="row">
+               
+
+                <div class="col-12">
+                  <div class="owl-carousel owl-theme">
+                    <div class="item section4_item">
+                        <img src="images/discover_1.jpg" class="img-fluid" alt="...">
+                      <div class="section4_overlay_gallery text-center">
+                          <h2>Weddings</h2>
+                      </div> </div>
+                    <div class="item section4_item">
+                      <img src="images/discover_2.jpg" class="img-fluid" alt="...">
+                      <div class="section4_overlay_gallery text-center">
+                        <h2>Parties</h2>
+                    </div></div>
+                    <div class="item section4_item">
+                      <img src="images/discover_3.jpg" class="img-fluid" alt="...">
+                      <div class="section4_overlay_gallery text-center">
+                          <h2>Relax</h2>   
+                    </div></div>
+                    <div class="item section4_item">
+                      <img src="images/discover_4.jpg" class="img-fluid" alt="...">
+                      <div class="section4_overlay_gallery text-center">
+                            <h2>Nature</h2>          
+                    </div></div>
+                    <div class="item section4_item">
+                      <img src="images/discover_5.jpg" class="img-fluid" alt="...">
+                      <div class="section4_overlay_gallery text-center">
+                              <h2>Relax</h2>        
+                    </div></div>
+                    <div class="item section4_item">
+                      <img src="images/discover_6.jpg" class="img-fluid" alt="...">
+                      <div class="section4_overlay_gallery text-center">
+                               <h2>Parties</h2>                  
+                    </div></div>
+
+                    <div class="item section4_item">
+                      <img src="images/discover_7.jpeg" class="img-fluid" alt="...">
+                      <div class="section4_overlay_gallery text-center">
+                            <h2>Relax</h2>
+                    </div></div>
+
+                    <div class="item section4_item">
+                      <img src="images/discover_8.jpg" class="img-fluid" alt="...">
+                      <div class="section4_overlay_gallery text-center">
+                              <h2>Parties</h2>                  
+                    </div></div>
+
+                
+                </div>
+                </div>
+              </div>
+            </div>
+        </section>
+                                                                                        <!-- section4 END -->
+
+
+                                                                                     <!-- SECTION5 sTART  -->
+  <section class="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section5_heading">
+             <h2>Clients</h2>
+             <h3>Testimonials</h3>
+          </div>
+        </div>
+
+        <div class="col-12 section5_gallery">
+           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1500">
+                <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
+                <div class="author">
+                  <img src="images/author_1.jpg" class="d-inline img-fluid" alt="...">
+                  <p>Maria Smith , <span>Client</span></p>
+
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
+                <div class="author">
+                  <img src="images/author_1.jpg" class="d-inline img-fluid" alt="...">
+                  <p>Maria Smith , <span>Client</span></p>
+
+                </div>              </div>
+              <div class="carousel-item">
+                <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
+                <div class="author">
+                  <img src="images/author_1.jpg" class="d-inline img-fluid" alt="...">
+                  <p>Maria Smith , <span>Client</span></p>
+                </div>              </div>
+            </div>
+            
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+                                                                                <!-- SECTION5 END  -->
+
+                                                                                <!-- SCROLL TO TOP  -->
+        <div class="SCROLL" id="scroll_btn">
+            <button >Scroll To Top <span><i class="bi bi-arrow-bar-up"></i></span></button>
+        </div>
+
+                                                                                 <!-- SCROLL TO TOP END  -->
+                                                                                     <!-- FOOTER START  -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                 <div class="footer_logo">
+                    <img src="images/logo2.png" class="img-fluid" alt="logo">
+                 </div>
+              </div>
+              <div class="col-lg-4 col-12 footer_content">
+                  <p>Phone:: </p>
+                  <p>+91 7018105756</p>
+                  <p>+91 9631023591</p>
+              </div>
+              <div class="col-lg-4 col-12 footer_content">
+                <p>Address:: </p>
+                <p>Chandigarh , Pincode- 140601</p>
+              </div>
+              <div class="col-lg-4 col-12 footer_content">
+                 <p>Email:: </p>
+                 <p>simranjaswal227@gmail.com</p>
+                 <p>manish56330@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
+                                                                                     <!-- FOOTER END  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- js  -->
+    <script src="./js/index.js"></script>
+
+    
+    
+  </body>
+</html>

@@ -1,0 +1,215 @@
+.header-bg-about{
+    background-image: url(../images/about.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh !important;
+}
+@media only screen and (max-width: 660px){
+    #header-content h1{
+         font-size: 80px !important;
+    }
+}
+@media only screen and (max-width: 380px){
+    #header-content h1{
+         font-size: 55px !important;
+    }
+}
+
+                                                         /* SECTION1 START  */
+.section1{
+    margin: 60px 0 !important;
+}
+.about_section1_heading{
+    padding: 50px 0;
+}
+.about_section1_heading h2
+{
+   color: rgba(128, 128, 128, 0.13);
+   font-size: 140px;
+}
+@media only screen and (max-width:365px){
+    .about_section1_heading h2
+    {
+       font-size: 35vw;
+    }
+}
+.about_section1_heading h2 p{
+    font-size: 30px;
+    color: black;    
+    margin-top: -50px;
+}
+.about_section1_heading p{
+    margin: 50px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.about_section1_heading a{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 25px 30px;
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+}
+.about_section1_heading a:hover{
+   border:2px solid orange;
+   color: orange;
+   background-color: transparent;
+}
+
+.about_image1_container{
+    margin: 30px 0;
+    vertical-align: center;
+}
+.about_image1{
+    width: 100%;
+    height: auto;
+    vertical-align: center;
+
+}
+.about_image1 img{
+    width: 100%;
+}
+                                                                       /* SECTION1 END  */
+
+
+
+                                                                       /* SECTION2 START  */
+
+ .section2{
+     margin: 70px 0;
+     background-color: #211c32;
+     padding: 60px 0;
+ }
+ .about_section2_heading{
+     margin: 0 0 70px 0;
+     text-align: center;     
+ }
+ .about_section2_heading h2{
+     font-size: 140px;
+     color:rgba(255,255,255,0.08);
+ }
+ @media only screen and (max-width:460px){
+    .about_section2_heading h2{
+        font-size: 30vw;
+    }
+ }
+ .about_section2_heading h3{
+     color: white;
+     margin-top: -70px !important;
+     font-size: 30px;
+ }
+ .about_section2_card{
+     padding: 10px 20px;
+     text-align: center;
+ }
+ .about_section2_card .about_section2_image{
+     width: 100%;
+     height: auto;
+ }
+ .about_section2_card .about_section2_image{
+     width: 100%;
+ }
+ .about_section2_card h2{
+     font-size: 22px;
+     color: white;
+     margin:20px 0;
+ }
+ .about_section2_card p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+.about_section2_card a{
+    font-size: 22px;
+    text-decoration: none;
+    color:orange;
+    
+    
+}
+.about_section2_card a:hover{
+    color: orange;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+                                                                            /* SECTION2 END  */
+
+                                                                                  /* SECTION3 START  */
+
+.about_section3_content{
+    text-align: start;     
+}
+.about_section3_content h2{
+    font-size: 140px;
+    color:#f4f5fa;
+ }
+@media only screen and (max-width:460px){
+   .about_section3_content h2{
+   font-size: 36vw;
+   }
+}
+.about_section3_content h3{
+    color: rgba(0, 0, 0, 0.918);
+    margin-top: -70px !important;
+    font-size: 30px;
+}
+.about_section3_content h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.about_section3_content p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.about_section3_content a{
+    text-decoration:none;
+    font-size: 18px;
+    padding: 20px 30px;
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+.about_section3_content a:hover{    
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange !important;
+}
+
+
+
+
+.section3{
+    margin: 60px 0;
+}
+.counter_container{
+    padding:40px 0;
+}
+.counter div{
+    font-size: 90px;
+    font-weight: 400;
+    font-style: italic;
+    color:#7b7e84;
+    font-family: 'Playfair Display', serif;
+}
+.counter .counter4{
+    display:flex;
+}
+.counter #counter_k{
+    font-size: 90px;
+    font-weight: 800;
+    font-style: italic;
+    opacity:0;
+}
+.counter4 div{
+    color:orange !important;
+    font-style: italic !important;
+    font-family: 'Playfair Display', serif !important;
+
+}
+.counter p{
+    font-size: 25px;
+}

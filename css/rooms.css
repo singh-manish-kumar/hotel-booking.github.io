@@ -1,0 +1,146 @@
+
+
+
+.header-bg-room{
+    background-image: url(../images/rooms.jpg) !important;
+    background-size: cover;
+    background-position:center center ;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+  } 
+  #header-content h1{
+    font-size: 80px !important;
+}
+@media only screen and (max-width: 350px){
+    #header-content h1{
+        font-size: 24vw !important;
+    }
+}
+
+.room_details{
+    background-color: #f4f5fa;
+    padding: 0px 0 30px 0px;
+    margin: 30px 0;
+}
+
+.room1_container .room1_image{
+    width:100% !important;
+    height: auto;
+}
+.room1_container .room1_image img{
+    width: 100%;
+}
+.room1_container .room_details h2{
+    font-size: 40px;
+    color:black ;
+    text-align: center ;
+    margin: 30px 0 ;
+}
+
+
+.room1_container .room_details p{
+    font-size: 16px ;
+    text-align: start ;
+    margin-left: 10px ;
+}
+.room1_container .room_details p span i{
+    color:orange ;
+    font-size: 30px ;
+    margin-right: 30px ;
+    margin-left: 10px ;
+}
+.room1_container .room_details h4 span{
+    color: orange ;
+    font-size: 65px ;
+}
+.room1_container h4{
+    margin-bottom: 20px ;
+    margin-left:  10px ;
+}
+.room_details .BOOK_NOW ,.room4_details .BOOK_NOW{
+    margin-left:  10px ;
+}
+
+
+
+
+.room4_details{
+    background-color: #171126;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.room1_container .room4_details h2{
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    margin: 30px 0;
+}
+.room1_container .room4_details p{
+    font-size: 16px;
+    text-align: start;
+    color: white;
+    margin-left: 10px;
+}
+.room1_container .room4_details p span i{
+    color:orange;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.room1_container .room4_details h4{
+    color: white;
+    margin-left: 10px;
+
+}
+.room1_container .room4_details h4 span{
+    color: orange;
+    font-size: 70px;
+}
+.room1_container h4{
+    margin-bottom: 20px;
+}
+
+.room4_details .special_offer{
+    position: absolute;
+    top:50px;
+    right:-50px;
+    background-color: blueviolet;
+    color: white;
+    padding: 25px 40px;
+    outline: none;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 1039px){
+    .room4_details .special_offer{
+        right:-30px;
+    }
+}
+@media only screen and (max-width: 581px){
+    .room4_details .special_offer{
+        right:0px;
+        top:0px;
+    }
+}
+
+.LOAD_MORE_ROOMS{
+      margin: 60px 0;
+}
+.LOAD_MORE_ROOMS div div{
+    text-align: center;
+}
+.LOAD_MORE_ROOMS div div a{
+    background-color: #171126;
+    padding: 25px 50px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+}
+.LOAD_MORE_ROOMS div div a:hover{
+    background-color: transparent;
+    color:#171126;
+    border: 2px solid #171126 ;
+}
+
